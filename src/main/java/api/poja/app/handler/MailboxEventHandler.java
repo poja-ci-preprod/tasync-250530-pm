@@ -4,6 +4,8 @@ import static api.poja.app.concurrency.ThreadRenamer.renameWorkerThread;
 import static java.lang.System.getenv;
 import static java.lang.Thread.currentThread;
 
+import api.poja.app.PojaApplication;
+import api.poja.app.PojaGenerated;
 import api.poja.app.endpoint.EndpointConf;
 import api.poja.app.endpoint.event.EventConf;
 import api.poja.app.endpoint.event.consumer.EventConsumer;
